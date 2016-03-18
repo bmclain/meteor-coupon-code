@@ -7,7 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.use('bmclain:xtend');
+  api.use('bmclain:xtend@4.0.1');
   api.addFiles([
     'coupon-code.js'
   ], 'server');
